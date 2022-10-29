@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+ <html>
+  <head> 
+   <title>ATM task</title>
+  </head>
+    <body>
+     <script>
+     var accountnumber1="123456";
+     var password1="lava";
+     var accountnumber2="789012";
+     var password2="amma";
+     var balance1=100000;
+     var balance2=200000;
+     var acnum,pwd,balance;
+    function atm(){
+     alert("Please enter to your account");
+     
+      acnum=prompt("Enter your account number:");
+     
+         
+      
+      pwd=prompt("Enter your passward:");
+      
+           if((accountnumber1==acnum && password1==pwd)||(accountnumber2==acnum&&password2==pwd))
+     {
+           alert("Welcome to your account\n1.Check your balance \n 2.deposite \n 3.withdraw \n 4.exit");
+          choice();
+     }
+         else{
+         alert("invalid");
+         atm();
+     }
+     
+     }
+     atm();
+       
+       function choice(){
+       var select=prompt("select your choice:");
+     switch(select){
+     case "1":
+     ca1();
+     choice();
+       break;
+     case "2":
+    
+      ca2();
+      choice();
+     break;
+     case "3":
+     
+     ca3();
+     choice();
+     break;
+     case "4":
+      ca4();
+     atm();
+     break;
+     default:
+     alert("not found");
+     }
+     
+      function ca1(){
+     alert("your balance:"); 
+     if(accountnumber1==acnum &&password1==pwd){
+       balance=balance1;
+     alert("balance"+balance);
+     }
+     else{
+     balance=balance2;
+     alert("balance"+balance);
+     }
+     }
+     function ca2(){
+     alert("deposite funds:");
+      var deposite=parseInt(prompt("enter deposite amount:"));
+       balance =balance+ deposite;
+      alert(balance);
+     alert("deposite successfull");
+     }
+     function ca3(){
+     alert("withdrawal funds:");
+     var withdraw=parseInt(prompt("enter withdraw amount:"));
+     if(withdraw>balance ){
+     alert("you have insuficient balance ");}
+     else{
+      balance =balance - withdraw;
+     alert("withdrawl successfull")
+     }
+     alert ("balance"+balance);
+      }  
+    function ca4(){
+    alert("thank you")
+    }  
+     }
+    
+     
+     
+     
+     
+     
+     
+     
+       
+     
+     
+     </script>
+    </body>
+   </html>
