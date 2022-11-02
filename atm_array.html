@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  </head>
+   <body>
+     <script>
+      var balance=0;
+      var acno=["123","456"];
+      var pwd=["12","34"];
+      var bal=[100,200];
+      var  index,ac,pd;
+      var withdraw;
+      var deposit;
+      alert("login");
+      login();
+   function login()
+    {
+      ac=prompt("emter ac:");
+      pd=prompt("enter pd");
+      if(acno[0]==ac&& pwd[0]==pd ||acno[1]==ac&& pwd[1]==pd )
+      {
+      index=acno.indexOf(ac);
+      alert("welcome");
+      alert("1.balance\n 2.deposit\n 3.withdraw \n 4.exit");
+      choice();
+     }
+     else
+     {
+      alert("Invalid details");
+      login();
+     }
+   }
+   function choice()
+   {
+     var select=prompt("select your choice");
+     switch(select)
+     {
+     case "1":checkbalance();
+     break;
+     case "2":depo();
+     break;
+     case "3":withd();
+     break;
+     case "4":exit();
+     break;
+     default:alert("no such request is avalible");
+    }
+   }
+   function checkbalance()
+   {   
+     alert("your balance"+bal[index]);
+      choice();
+   }
+  function depo()
+  {
+     deposit=parseInt(prompt("enter deposit funds"));
+     bal[index]=deposit+ bal[index];
+     alert("avalible balance"+ bal[index]);
+     choice();
+   }
+  function withd()
+  {
+     withdraw=parseInt(prompt("enter withdraw funds"));
+     if (withdraw> bal[index])
+     {
+      alert("Insufficeient funds");
+     }
+     else
+     {
+     bal[index]-=withdraw;
+     alert("avalible balance"+ bal[index]);
+     }
+    choice();
+  }
+  function exit()
+  {
+    alert("exit");
+    login();
+   }
+</script>
+</body>
+</html>
+
+
