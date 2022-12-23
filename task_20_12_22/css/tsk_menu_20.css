@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    width:1200px;
+    height:90%;
+    background-color: white;
+    margin:auto;
+}
+.main{
+    margin:20px;
+    display:flex;
+}
+.head{
+    
+    width:1200px;
+    height:70px;
+    background-color:whitesmoke;
+}
+.left_items{
+    width:60%;
+    height:90%;
+   
+}
+.right_items{
+    width:40%;
+    height:90%;
+    background-color:whitesmoke;
+    overflow:scroll;
+}
+.buttons{
+    width:150px;
+    height:100px;
+   margin-bottom:10px;
+   margin-right:10px;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    border-bottom:3px solid rgb(0, 4, 255);
+}
+#order{
+    display:flex;
+    padding:10px;
+    
+}
+#or{
+    margin-right:40px;
+    width:100px;
+    height:40px;
+    border:none;
+}
+#cu{
+    width:100px;
+    height:60px;
+    border:none;
+    background-color:white;
+    margin-bottom:0px;
+}
+#m{
+    padding:10px;
+float:left;
+}
+#c{
+    border:none;
+    margin:10px;
+    padding:5px;
+    float:right;
+    color: dodgerblue;
+    font-size:20px;
+}
+#p{
+    border:none;
+    margin-left:15px;
+    width:420px;
+    height:40px;
+    border-radius:5px;
+}
+#tab{
+    padding:5px;
+    text-align:center;
+   margin-left:30px;
+   
+ }
+ th,td{
+    padding:15px;
+    border-width:40px;
+ }
+ #in{
+    width:20px;
+ }
+ .butt{
+    display:flex;
+ }
+ #od{
+    width:250px;
+    height:50px;
+    background-color:rgb(0, 204, 255);
+ }
+ #ch{
+    width:250px;
+    height:50px;
+    background-color: aquamarine;
+ }
+ 
+ #tabulate {
+    text-align: center;
+    margin-left:20%;
+   margin-right:20%;
+    display:none;
+    background-color: aquamarine;
+ }
+ #v{
+    width:80px;
+    height:30px;
+    background-color: darkgoldenrod;
+    border-radius:10px;
+    border:1px solid black;
+ }
+ .datailsbox{
+    display:none;
+    width:500px;
+    justify-content:center;
+    margin-left:30%;
+    text-align: center;
+    background-color: burlywood;
+    padding:20px;
+ }
+  h2 h3{
+    color:cornflowerblue;
+ }
+ h1{
+    color:blueviolet
+ }
