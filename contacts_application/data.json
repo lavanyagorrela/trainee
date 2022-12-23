@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "lavanya",
+      "contact": "1234567890",
+      "email": "lava@gmail.com",
+      "DOB": "2022-12-08",
+      "id": 3
+    },
+    {
+      "name": "ammu",
+      "contact": "1234556464",
+      "email": "ammu@gmail.com",
+      "DOB": "2022-12-14",
+      "id": 4
+    },
+    {
+      "name": "aparna",
+      "contact": "3243434",
+      "email": "@aparna",
+      "DOB": "2022-12-12",
+      "id": 5
+    },
+    {
+      "name": "vaishu",
+      "contact": "0987654321",
+      "email": "vaishu@gmail.com",
+      "DOB": "2022-12-12",
+      "id": 7
+    },
+    {
+      "name": "jgjgj",
+      "contact": "2321",
+      "email": "ftgd",
+      "DOB": "2022-11-29",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

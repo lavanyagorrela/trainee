@@ -11,8 +11,12 @@
      var password2="amma";
      var balance1=100000;
      var balance2=200000;
-     var acnum,pwd,balance;
-    function atm(){
+     var acnum,pwd;var balance=0;
+     var transactionHistory=[];
+     var Transactiontype="";
+     var Amount="";    
+     var printingoptions="";
+   function userLogin(){
      alert("Please enter to your account");
      
       acnum=prompt("Enter your account number:");
@@ -23,86 +27,101 @@
       
            if((accountnumber1==acnum && password1==pwd)||(accountnumber2==acnum&&password2==pwd))
      {
-           alert("Welcome to your account\n1.Check your balance \n 2.deposite \n 3.withdraw \n 4.exit");
+           alert("Welcome to your account\n1.Check your balance \n 2.deposite \n 3.withdraw \n 4.transactions\n5.exit");
           choice();
      }
          else{
          alert("invalid");
-         atm();
+         userLogin();
      }
      
      }
-     atm();
+     userLogin();
        
        function choice(){
-       var select=prompt("select your choice:");
+       while(true){
+        //alert("Welcome to your account\n1.Check your balance \n 2.deposite \n 3.withdraw \n 4.transactions 5.exit");
+       var select=prompt("select your choice:\n1.Check your balance \n 2.deposite \n 3.withdraw \n 4.transactions\n5.exit");
      switch(select){
      case "1":
-     ca1();
+     Balance();
+     
      choice();
        break;
      case "2":
-    
-      ca2();
+    deposite();
+     
       choice();
      break;
      case "3":
+      withdrawl();
      
-     ca3();
      choice();
      break;
      case "4":
-      ca4();
-     atm();
+     transaction();
+     choice();
+     break;
+     
+     case "5":
+      exit();
+     userLogin();
      break;
      default:
      alert("not found");
      }
-     
-      function ca1(){
+     }
+      function Balance(){
      alert("your balance:"); 
      if(accountnumber1==acnum &&password1==pwd){
-       balance=balance1;
+     balance += balance1;
      alert("balance"+balance);
+     
      }
      else{
-     balance=balance2;
+     balance +=balance2;
      alert("balance"+balance);
      }
      }
-     function ca2(){
+     function deposite(){
      alert("deposite funds:");
       var deposite=parseInt(prompt("enter deposite amount:"));
+      var transactiondeposit=({Transactiontype:"Deposit Amount", Amount:+deposite});
+        transactionHistory.push(transactiondeposit);
        balance =balance+ deposite;
       alert(balance);
      alert("deposite successfull");
      }
-     function ca3(){
+     function withdrawl(){
      alert("withdrawal funds:");
      var withdraw=parseInt(prompt("enter withdraw amount:"));
      if(withdraw>balance ){
      alert("you have insuficient balance ");}
      else{
+      var transactionwithdraw=({Transactiontype:"withdrawal Amount", Amount:+withdraw});
+      transactionHistory.push(transactionwithdraw);
       balance =balance - withdraw;
      alert("withdrawl successfull")
      }
      alert ("balance"+balance);
-      }  
-    function ca4(){
+      } 
+       function transaction()
+      {
+         
+         for(var i=0;i<transactionHistory.length;i++)
+         {
+         printingoptions += (`${transactionHistory[i].Transactiontype} - ${transactionHistory[i].Amount}`);
+            
+         }
+        alert("YOUR TRANSACTIONS ARE : "+printingoptions);
+           
+      }
+       
+    function exit(){
     alert("thank you")
     }  
      }
-    
-     
-     
-     
-     
-     
-     
-     
-       
-     
-     
+   
      </script>
-    </body>
-   </html>
+   </body>
+ </html>

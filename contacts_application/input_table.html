@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link rel="styleSheet" href="input_table.css">
+	</head>
+	<body>
+		
+	    <div class="container">
+			<fieldset>
+				<legend>
+			<h1>CONTACTS</h1></legend>
+			<br>
+			<center>
+		<label>NAME:</label>
+		<input type="text" id="n" placeholder="ENTER NAME"><br><br>
+		<label>CONTACT:</label>
+		<input type="number" id="c" placeholder="ENTER NUMBER"><br><br>
+		<label>EMAIL:</label>
+		<input type="email" id="m" placeholder="ENTER MAIL"><br><br>
+		<label>DOB:</label>
+		<input type="date" id="d" placeholder="ENTER DOB"><br><br>	
+		
+		<button type="submit" id="s" style="background-color:indigo">submit</button>
+		</div></center></fieldset>
+		<button onclick="cli()" id="b">view contacts</button>
+		<table class="table">
+			<thead>
+		<tr>
+			<th>NAME</th>
+			<th>CONTACT</th>
+			<th>EMAIL</th>
+			<th>DOB</th>
+			<th>OPTION</th>
+			<th>OPTION</th>
+			
+		</tr>
+	       </thead>
+		  
+            
+			<tbody class="tbd">
+			</tbody>	
+		</table>
+			<script src="input_table.js"></script> 
+	</body>
+</html>
+<!-- data.json -->
