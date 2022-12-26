@@ -22,6 +22,7 @@ body{
 .left_items{
     width:60%;
     height:90%;
+    float:left;
    
 }
 .right_items{
@@ -29,6 +30,7 @@ body{
     height:90%;
     background-color:whitesmoke;
     overflow:scroll;
+    float:right;
 }
 .buttons{
     width:150px;
@@ -48,8 +50,9 @@ body{
 #or{
     margin-right:40px;
     width:100px;
-    height:40px;
+    height:60px;
     border:none;
+    margin-bottom:0px;
 }
 #cu{
     width:100px;
@@ -57,6 +60,8 @@ body{
     border:none;
     background-color:white;
     margin-bottom:0px;
+    border-left:1px solid gray;
+    border-right:1px solid gray;
 }
 #m{
     padding:10px;

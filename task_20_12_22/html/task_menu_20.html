@@ -2,71 +2,71 @@
     <head><title>menu task</title>
         <link rel="stylesheet" href="../css/tsk_menu_20.css">
     </head>
-    <body>
-       <div class="head">
+<body>
+ <div class="main_container">
+    <div class="head">
         <div id="order">
-            <button id="or">orders:</button>
-            <button id="cu">current</button>
-            
-        </div></div>
-        <div>
-            <table id="tabulate" >
-                    
-                <tr>
-            <!-- <th>DATE</th> -->
-            <th>NAME</th>
-            <th>DISCOUNT AMOUNT</th>
-            <th>TAX AMOUNT</th>
-            <th>BILL AMOUNT</th>
-            <th>DETAILS</th>
-            </tr>
-        <tbody id="tab_data">
-        </tbody>
-    </table>
-    <div class="datailsbox">
-         </div>
-    </div>
-        <div class="main">
-            <div class="left_items" id="items">
-            </div>
-            <div class="right_items">
-                <div>
-                <h4 id="m"> Table 5/max</h4>
-                <button id="c">clear</button></div>
-                <div>
-                <input type="text" placeholder="enter mobile number" id="p"></div>
-                <div>
-             <table id="tab">
-                
-                    <tr>
-                <th>Items</th>
-                <th>quantity</th>
-                <th>price</th>
-                </tr>
-            
-            <tbody id="table_data">
-
-            </tbody>
-              <tr>
-                <td><b>Discount</b></td>
-                <td><input type="text" value="3%" style="width:30px;">
-                <td id="d">XXXXX<td>
-              </tr>
-              <tr>
-                <td><b>Taxes</b></td>
-                <td><input type="text" value="4%" style="width:30px;">
-                <td id="t">-<td>
-              </tr>
-             </table>
-            </div>
-             <div class="butt">
-                <button id="od">order ticket</button>
-                <button id="ch">charge</button>
-            </div>
-            </div>
+           <span> <button id="or">orders:<span>0</span></button></span>
+            <button id="cu">current</button>           
         </div>
-     <script src="../js/task_menu_20.js"></script>
-    </body>
+    </div>
+       <div>
+         <table id="tabulate" >                   
+            <tr>
+              <th>NAME</th>
+              <th>DISCOUNT AMOUNT</th>
+              <th>TAX AMOUNT</th>
+              <th>BILL AMOUNT</th>
+              <th>DETAILS</th>
+            </tr>
+            <tbody id="tab_data">
+            </tbody>
+         </table>
+             <div class="datailsbox">
+         </div>
+       </div>
+      <div class="main">
+           <div class="left_items" id="items">
+           </div>
+                 <div class="right_items">
+                    <div>
+                    <h4 id="max"> Table 5/max</h4>
+                    <button id="c">clear</button>
+                </div>
+                <div>
+                    <input type="text" placeholder="enter your name" id="p">
+                </div>
+                <div>
+                   <table id="tab">      
+                      <tr>
+                        <th>Items</th>
+                        <th>quantity</th>
+                        <th>price</th>
+                      </tr>
+            
+                        <tbody id="table_data">
+                        </tbody>
+                        <tr>
+                            <td><b>Discount</b></td>
+                            <td><input type="text" value="3%" style="width:30px;">
+                            <td id="d">XXXXX<td>
+                        </tr>
+                        <tr>
+                            <td><b>Taxes</b></td>
+                            <td><input type="text" value="4%" style="width:30px;">
+                            <td id="t">-<td>
+                        </tr>
+                 </table>
+               </div>
+               <div class="butt">
+                    <button id="od">order ticket</button>
+                    <button id="ch">charge</button>
+               </div>
+            </div>
+       </div>
+    </div>
+    <script src="../js/task_menu_20.js"></script>
+ </body>
 </html>
 
 
