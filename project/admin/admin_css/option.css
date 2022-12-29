@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width:1200px; 
+}
+.left_part{
+    width:25%;
+    background-color: aqua;
+}
+.right_part{
+    width:70%;
+    background-color: aqua;
+    
+}
+
+
+ul{
+	list-style:none;
+    padding-bottom: 38%;
+}
+li{
+    padding-top:30%;
+    padding-left:10%;
+}
+#button_last{
+    width:100px;
+    height:40px;
+    background-color: blue;
+}

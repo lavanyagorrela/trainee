@@ -1,0 +1,65 @@
+{
+    "data":[
+    {
+        "id":1,
+        "title":"UX Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../admin_html/ux-interface.png",
+        "number":"01",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":2,
+        "title":"Game Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../icons/gaming.png",
+        "number":"02",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":3,
+        "title":"Graphic Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../icons/design.png",
+        "number":"03",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":4,
+        "title":"Web Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../icons/web-design.png",
+        "number":"04",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":5,
+        "title":"App Development",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../icons/mobile-development.png",
+        "number":"05",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":6,
+        "title":"Digital Marketing",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../icons/digital-marketing.png",
+        "number":"06",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    }
+    ]
+        
+    }
