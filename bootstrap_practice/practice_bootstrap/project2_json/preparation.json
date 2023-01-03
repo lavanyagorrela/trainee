@@ -1,0 +1,49 @@
+{
+    "data":[
+    {
+        "id":1,
+        "name":"lavanya",
+        "phno":"123456789",
+        "email":"lava@gamil.com"
+    
+    },
+    {
+        "id":2,
+        "name":"keerthi",
+        "phno":"987655432",
+        "email":"lava@gamil.com"
+    
+    },
+    {
+        "id":3,
+        "name":"vaishu",
+        "phno":"123678090",
+        "email":"lava@gamil.com"
+    
+    
+    },
+    {
+        "id":4,
+        "name":"sai",
+        "phno":"2346457867",
+        "email":"lava@gamil.com"
+    
+    
+    },
+    {
+        "id":5,
+        "name":"sravs",
+        "phno":"0986753432",
+        "email":"lava@gamil.com"
+    
+    
+    },
+    {
+        "id":6,
+        "name":"ammu",
+        "phno":"345677899",
+        "email":"lava@gamil.com"
+    
+    }
+]
+}
