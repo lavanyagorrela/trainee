@@ -1,0 +1,42 @@
+body{
+    font-family: Poppins;
+    background: #FFF7F4;    
+}
+.main{
+    font-family: Poppins;
+ }
+ .right_part{
+     padding-top:10px; 
+ }
+ .button1{
+     border:1px solid black;
+    margin-top: -8px;
+ }
+ .row1{
+     padding:40px;   
+ }
+ .row2{
+    padding:40px;
+     margin-top:10%;
+ }
+ .navigation1{
+ color:#FF5300;
+ width:100px;
+ 
+ }
+ .navigation2{
+ color:black;
+ width:110px;
+ }
+ .text_h1{
+    font-weight: 600;
+font-size: 36.83px;
+padding-bottom:30px; 
+}
+.text_h6{
+    padding-bottom:10px;
+    color: #FF5300;
+}
+.para{
+    padding-bottom:20px;
+}

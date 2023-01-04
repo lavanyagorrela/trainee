@@ -1,0 +1,28 @@
+{
+    "information":[
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Imagetestmonial.png",
+            "name":"Phillip Levin",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        },
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Image (1)testmonial.png",
+            "name":"Lincoln Lipshutz",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        },
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Image (3)testmonial.png",
+            "name":"Cralg Siphran",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        }
+    ]
+}

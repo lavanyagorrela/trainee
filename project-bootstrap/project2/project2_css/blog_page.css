@@ -1,0 +1,33 @@
+body{
+    font-family: Poppins;
+    background: #FFF7F4;    
+}
+.main{
+    font-family: Poppins;
+ }
+ .right_part{
+     padding-top:10px; 
+ }
+ .button1{
+     border:1px solid black;
+    margin-top: -8px;
+ }
+ .row1{
+     padding:40px;   
+ }
+ .row2{
+     padding:40px;
+     margin-top:30px;
+ }
+ .navigation1{
+ color:#FF5300;
+ width:80px;
+ 
+ }
+ .navigation2{
+ color:black;
+ width:110px;
+ }
+ .column{
+     padding-top:50px;  
+ }

@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+.items-row{
+    margin-top: 20px;
+     margin-left:150px;
+    
+ }
+ .column-data{
+    background-color: blanchedalmond;
+    margin:10px;
+    padding:10px;
+ }
