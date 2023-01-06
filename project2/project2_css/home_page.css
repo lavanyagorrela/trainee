@@ -1,0 +1,280 @@
+body{
+    font-family: Poppins;
+      
+}
+.total-container{
+    background-color:white;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.Capabilities{
+    background-color: white;
+}
+.tootal-page{
+    padding: 0px;
+    margin:0px;
+}
+.main{
+   font-family: Poppins;
+   background: #FFF7F4;
+   padding-bottom: 50px;
+  
+}
+.right_part{
+    padding-top:10px; 
+}
+.button1{
+    border:1px solid black;
+   margin-top: -8px;
+}
+.row1{
+    padding:40px;   
+}
+.row2{
+    padding:40px;
+   
+}
+.navigation1{
+color:#FF5300;
+width:80px;
+
+}
+.navigation2{
+    color:black;
+    width:110px;
+}
+.column-data{
+background-color:whitesmoke;
+ height:250px;
+ margin:10px;
+ width:340px;
+padding-top: 10px;
+    }
+.items-row{
+margin-top: 20px;
+margin-left:18px;
+ }
+.text-color{
+ color:#FF5300;
+ }
+    
+.column{
+    padding-top:100px;  
+}
+.text_h1tag{
+    font-weight: 600;
+font-size: 46.83px;
+padding-bottom:30px; 
+}
+#start-button{
+    font-weight: 500;
+font-size: 20px;
+background: #FF5300;
+border-radius:5px;
+color:white;
+
+}
+.items-row{
+    margin-top: 20px;
+     margin-left:18px;
+ }
+ .services-page{
+    font-family: Poppins;
+    background: white;
+    margin-top:100px;
+    padding-bottom: 50px;
+  
+ }
+ .text_h1{
+    font-weight: 600;
+font-size: 36.83px;
+padding-bottom:30px; 
+}
+.text_h6{
+    padding-bottom:10px;
+    color: #FF5300;
+}
+.para{
+    padding-bottom:20px;
+}
+.about-page{
+    padding-top: 60px;
+    padding-bottom:60px;
+    margin-top:100px;
+    font-family: Poppins;
+    background: #FFF7F4;  
+    margin-bottom:100px;
+    
+}
+.projects-page{
+  
+    padding-top:30px;
+    background-color:white;
+    }
+    .taotal-page{
+        padding-top:30px; 
+        margin-top: 50px;
+        background:white; 
+        padding-bottom:100px;
+      
+    }
+    .header_part{
+       
+        margin-bottom: 20px; 
+        padding-top:30px;
+    }
+    .heading{
+        text-align: center;
+    
+    }
+    .main_heading{
+       padding-bottom:20px; 
+    color:#FF5300;
+    }
+    /* .container text-center{
+    padding-right:20px;
+       
+    } */
+    .but{
+        border-radius: 10px;
+        background-color: #FF5300;
+        width:45%;
+        height:100%;
+    }
+    .text_center{
+        font-weight: 600;
+    font-size: 39.0625px;
+    }
+    .text1{
+        font-weight: 400;
+    font-size: 16px;
+    color:#FF5300;
+    }
+    .header1{
+        margin-top: 120px;
+        background: #FFF7F4;  
+    }
+    .container2{
+        background-color: aqua;
+    }
+    
+    .division{
+        background-color:white;
+        margin:1px; 
+        width:280px
+    }
+    .text_color{
+        color: #FF5300;
+        float: left;
+    }
+    .text{
+        float: left; 
+    }
+    .logo{
+        margin-top: -5px;
+    }
+    #content{
+
+        margin-left:20px;
+        
+    }
+    #arrow-logo{
+        margin-top: 200px;  
+    }    
+    .testmonial-page{
+        background: #FFF7F4; 
+        
+        padding-bottom: 200px;
+    }
+   #arrow_image{
+   width:40px;
+   margin-top:30px;
+   }
+   li{
+    list-style: none;
+}
+.total-content{
+    padding-top: 100px;
+}
+.footer{
+    margin-top:100px;
+    background-color: orangered;
+}
+.number-size{
+    font-size:40px;
+    color:white;
+}
+.list-color{
+    color: white;
+}
+.textcenter{
+    color:orangered;
+    font-size:20px;
+}
+.heading-color{
+    color:orangered;  
+}
+.buttton-color{
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    width:150px;
+}
+.heading-color{
+    color: orangered;
+}
+.small-text{
+    font-size: 10px;
+    padding-top: 10px;
+    margin-left:-5px;
+}
+.blog_page{
+    background-color: #FFF7F4;  
+    padding-top: 60px;
+    padding-bottom: 120px;
+    margin-top:100px;
+}
+.blog-box{
+    margin-top: 50px;
+}
+.search-division{
+    background-color: #FF5300;
+   
+    padding:5px;
+}
+.Subscribe-button{
+   margin-top:-75px;
+   margin-left:360px;
+
+}.mail{
+    height:50px;
+}
+.total-search{
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.subscribe-color{
+    color:white;
+}
+.last-footer{
+    background-color: black;
+    padding: 20px;
+    margin-top: 100px;
+}
+.last-font{
+    color:white
+}
+.heading-last{
+    color:#FF5300;
+    margin-top:20px;
+}
+.vl{
+    border-right: 4px solid white;
+}
+.row-color{
+    border-top:4px solid white;
+}
+.button-border{
+    border:0.01px solid black;
+   
+}

@@ -1,0 +1,109 @@
+{
+    "data":[
+    {
+        "id":1,
+        "title":"UX Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../images_project/ux-interface.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":2,
+        "title":"Game Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../images_project/gaming.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":3,
+        "title":"Graphic Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../images_project/design.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":4,
+        "title":"Web Design",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../images_project/web-design.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":5,
+        "title":"App Development",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../images_project/mobile-development.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    
+    },
+    {
+        "id":6,
+        "title":"Digital Marketing",
+        "subtitle":"Mobile App Website",
+        "image_url":"./../images_project/digital-marketing.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "status":""
+    }
+    ],
+    "testmonials":[
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Imagetestmonial.png",
+            "name":"Phillip Levin",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        },
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Image (1)testmonial.png",
+            "name":"Lincoln Lipshutz",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        },
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Image (3)testmonial.png",
+            "name":"Cralg Siphran",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        }
+    ],
+    "testmonials2":[
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Image (3)testmonial.png",
+            "name":"Cralg Siphran",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        },
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Imagetestmonial.png",
+            "name":"Phillip Levin",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        },
+        {
+            "star_image":"./../images_project/Component 2.png",
+            "description":"Lorem Ipsum used since the 1500s is interested. Sections 1.10.32 and the 1.10.33 from de Finibus Bonorum et Malorum.",
+            "image_url":"./../images_project/Image (1)testmonial.png",
+            "name":"Lincoln Lipshutz",
+            "post":"CEO/Creative IT",
+            "double_quotes":"./../images_project/double-quotes-l.png"
+        }
+    ]
+    }
