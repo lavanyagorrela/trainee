@@ -19,7 +19,7 @@ async function getting_data_1(){
 getting_data_1();
 
 export{
-    getting_data_1  
+    getting_data_1   
 }
 
 

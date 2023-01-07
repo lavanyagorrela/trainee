@@ -224,10 +224,12 @@ padding-bottom:30px;
     color: orangered;
 }
 .small-text{
-    font-size: 10px;
-    padding-top: 10px;
-    margin-left:-5px;
+    font-size: 15px;
+    padding-top: 4px;
+    margin-left:-15px;
+    padding-bottom: -10px;
 }
+
 .blog_page{
     background-color: #FFF7F4;  
     padding-top: 60px;
@@ -277,4 +279,7 @@ padding-bottom:30px;
 .button-border{
     border:0.01px solid black;
    
+}
+.copyright{
+    color:white;
 }

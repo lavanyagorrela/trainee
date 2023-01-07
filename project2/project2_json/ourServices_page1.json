@@ -5,6 +5,7 @@
         "title":"UX Design",
         "subtitle":"Mobile App Website",
         "image_url":"./../images_project/ux-interface.png",
+        "number":"./../images_project/01.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         "status":""
     
@@ -105,5 +106,75 @@
             "post":"CEO/Creative IT",
             "double_quotes":"./../images_project/double-quotes-l.png"
         }
-    ]
+    ],
+   "project-images":[
+    {
+        "project_image_url":"./../images_project/Image (1).png"
+    },
+    {
+        "project_image_url":"./../images_project/Image....png"
+    },
+    {
+        "project_image_url":"./../images_project/Image ...png"
+    },
+    {
+        "project_image_url":"./../images_project/Image.png"
+    },
+    {
+        "project_image_url":"./../images_project/Image (3).png"
+    },
+    {
+        "project_image_url":"./../images_project/Image (4).png"
+    },
+    {
+        "project_image_url":"./../images_project/Image (5).png"
+    },
+    {
+        "project_image_url":"./../images_project/Image (6).png"
+    },
+    {
+        "project_image_url":"./../images_project/Image (7).png"
+    }
+   ],
+   "blog_page":[
+    {
+        
+        "image_url":"./../images_project/blog_Image.png",
+        "title":"35 Stellar Graphic Design Blog to Keep you Educated and Inspired",
+        "timer_image":"./../images_project/timer.png",
+        "date":"6 jan,2023",
+        "person_image":"./../images_project/person.png",
+        "name":"Westervelt",
+        "message_image":"./../images_project/message-circle.png",
+        "comments":"10comments",
+        "description":"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+       
+        "image_url":"./../images_project/blog_Image (1).png",
+        "title":"35 Stellar Graphic Design Blog to Keep you Educated and Inspired",
+        "timer_image":"./../images_project/timer.png",
+        "date":"6 jan,2023",
+        "person_image":"./../images_project/person.png",
+        "name":"Westervelt",
+        "message_image":"./../images_project/message-circle.png",
+        "comments":"10comments",
+        "description":"Some quick example text to build on the card title and make up the bulk of the card's content."  
+    
+    },
+    {
+        
+        "image_url":"./../images_project/blog_Image (3).png",
+        "title":"35 Stellar Graphic Design Blog to Keep you Educated and Inspired",
+        "timer_image":"./../images_project/timer.png",
+        "date":"6 jan,2023",
+        "person_image":"./../images_project/person.png",
+        "name":"Westervelt",
+        "message_image":"./../images_project/message-circle.png",
+        "comments":"10comments",
+        "description":"Some quick example text to build on the card title and make up the bulk of the card's content." 
+    
+    }
+   ]
+
     }
