@@ -1,0 +1,342 @@
+body{
+    width:1200px;
+    margin:auto;
+    background-color: white
+}
+.container{
+    padding-top:20px;
+    padding-left:90px;
+    padding-right:90px;
+}
+.container1{
+   padding: 10px;
+}
+.header{
+    display: flex;
+  justify-content:space-between;
+}
+.earth{
+    margin-right:10px;
+}
+.challenges{
+    display: flex;
+}
+.challenge_image{
+   width:15px;
+   margin-bottom:-4px;
+}
+.join{
+    color:white;
+    background-color: black;
+    width:60px;
+    height:35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 50px;
+} 
+.content{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+padding-bottom: 100px;
+}
+.content_left{
+    width:50%;
+    padding-right:30px;
+}
+.text{
+font-size: 40.83px;
+}
+.learn_button{
+    width:120px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    height:35px;
+    border-radius: 5px;
+    margin-top:30px;
+}
+.content_right{
+    width:50%;
+   margin-top: 20px;
+}
+.image{
+    background-color: #c4c4c4;
+    height:270px;
+    width:300px;
+    margin-left: 180px;
+}
+.information{
+    width:60%;
+}
+.text2{
+    font-weight: 600;
+    font-size: 35.83px;
+    }
+ .cards{
+    display: flex;
+    flex-direction: row;
+ } 
+ .card1{
+    width:30%;
+    margin:10px; 
+ }  
+ .card_image{
+    height:190px;
+    width:100%;
+    border-radius:5px;
+    background-color: #c4c4c4;
+    padding-top:10px;
+ }
+ .smallImage{
+    width:20%;
+    height:30%;
+    margin-left: 10px;
+    background-color: rgb(167, 170, 170);
+ }
+ .card_button{
+    width:90%;
+    height:35px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+ }
+ .images_cicles{
+   display: flex;
+ }
+ .circleImages{
+   height:40px;
+   width:40px;
+   border-radius: 50%;
+   background-color: #c4c4c4;
+   margin: 5px;
+ }
+ .name1{
+   padding-left: 5px;
+ } 
+ .name2{
+   padding-left: 5px;
+   margin-top:-15px;
+ }
+ .container3{
+    display: flex;
+    margin-top:100px;
+ }
+ .container3_image{
+    width:40%;
+    height: 300px;
+    margin-right: 100px;
+    background-color: #c4c4c4;
+    margin-top:20px;
+ }
+ .content3{
+    width:43%;
+ }
+ .container4{
+    display: flex;
+    margin-top:100px;
+ }
+ .content4{
+    width:43%;
+ }
+ .container4_image{
+    width:40%;
+    height: 300px;
+    margin-left: 100px;
+    background-color:#c4c4c4;
+    margin-top:20px;
+ }
+ .cntainer4_button{
+    width:60%;
+    height:35px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white; 
+ }
+ .container5{
+    margin-top: 100px;
+ }
+ .jointribe{
+    display: flex;
+    flex-wrap: wrap;  
+ }
+ .jointribe_divisions{
+    width: 30%;
+    margin: 15px;
+ }
+ .container6{
+    margin-top: 100px;  
+ }
+ .tribe_cards{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .tribe_card1{
+    width:20%;
+    margin: 20px;
+ }
+.tribe_cardimage{
+    height:145px;
+    background-color: #c4c4c4;
+}
+.content7{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.container7_image{
+    width:50%;
+    height: 300px;
+    background-color: #c4c4c4;
+    margin-top:20px;
+ }
+.persons{
+width:40%;
+margin: 10px;
+}
+.details{
+ display:flex;
+}
+.imgdiv{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color:#c4c4c4;
+    margin-top:5%;
+}
+.container8{
+   height:200px;
+   background-color:black;
+   border-radius: 5px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.content8{
+   color:white;
+   text-align: center;
+   padding-top: 20px;
+}
+.earth_button{
+   width:200px;
+   height:40px;
+   color: black;
+   background-color:white;
+   border-radius:5px;
+   margin-left:40%;
+}
+.button_text{
+margin-top: 8px;
+}
+.partners{
+   display: flex;
+}
+.partner_division{
+   height:140px;
+   width:250px;
+   margin: 10px;
+   margin-top: 40px;
+   background-color: #c4c4c4;
+}
+.container9{
+   margin-top:100px;
+   margin-bottom:100px;
+}
+.container10{
+   display: flex;
+}
+.ABOUT_division{
+   height:100px;
+   width:290px;
+   margin: 10px;
+   margin-top: 40px;
+   background-color:#c4c4c4;
+}
+.about{
+   width:350px;
+  margin-left: 80PX;
+}
+.footer{
+   width:100%;
+   display:flex;
+   justify-content: flex-start;
+   height:100px;
+   padding: 10px;
+   margin-top:100px;
+}
+.end_button{ 
+   width:16%; 
+}
+.end{
+   margin-top:-20px;
+   width:80px;
+   height:50px;
+   margin-left:100px ;
+   background-color:#c4c4c4;
+  
+}
+@media only screen and (max-width: 600px) {
+   .header{
+      display: flex;
+      flex-direction:column;
+  }
+  .content{
+   width:600px;
+   display: flex;
+   flex-direction:column;
+   }
+   .cards{
+      width:600px;
+      display: flex;
+      flex-direction: column;
+   }
+   .container3{
+      width:600px;
+      display: flex;
+      flex-direction: column;
+   } 
+   .container4{
+      width:600px;
+      display: flex;
+      flex-direction: column;
+   }
+   .jointribe{
+      width:600px;
+      display: flex;
+      flex-direction: column;
+   }
+   .tribe_cards{
+      width:600px;
+      display: flex;
+      flex-direction: column;
+   }
+   .content7{
+      width:600px;
+      display:flex;
+      flex-direction: column;
+  }
+  .partners{
+   width:600px;
+   display: flex;
+   flex-direction: column;
+  }
+  .container10{
+   width:600px;
+   display: flex;
+   flex-direction: column;
+  }
+  .footer{
+   width:600px;
+   display:flex;
+   flex-direction: column;
+  }
+  .container8{
+   width:600px;
+}
+.tribe_text{
+   width:600px;
+}
+}
