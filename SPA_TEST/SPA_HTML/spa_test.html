@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  .pages{
+    display: flex;
+    
+    padding:20px;
+    background-color:pink;
+  }
+  .container{
+    background-color: burlywood;
+  }  
+  .page{
+    width:40%;
+  }
+</style>
+<body>
+    <div class="container">
+        <div class="pages">
+            <div class="page"><a href="#" onclick="navigation('/home')">HOME</a></div>
+            <div class="page"><a href="#" onclick="navigation('/about')">ABOUT</a></div>
+            <div class="page"> <a href="#" onclick="navigation('/contact')">CONTACT</a></div>
+        </div>
+        <div class="pagesContent"></div>
+    </div>
+
+    <script>
+        let home = '';
+        let about = '';
+        let contact = '';
+    let selectPage=document.querySelector(".pagesContent");
+
+     async function gettingPages(page){
+      let response=await fetch(page);
+      let responsePage=await response.text();
+      return responsePage;
+     }
+     
+     async function gettingAllPages(){
+        home = await gettingPages('spaHome.html');
+        about = await gettingPages('spaAbout.html');
+        contact = await gettingPages('spaContact.html');  
+     }
+    
+     async function mainPage(){
+       await  gettingAllPages();
+        selectPage.innerHTML=home;
+        AllPages  ={
+            '/home':home,
+            '/about':about,
+            '/contact':contact,
+        }
+        
+     }
+     mainPage();
+
+     function navigation(pageName){
+        window.history.pushState(
+            {},
+            pageName,
+           window.location.origin + pageName
+           );
+           selectPage.innerHTML= AllPages[pageName];
+     }
+     window.onpopstate = () => {  
+        selectPage.innerHTML = AllPages[window.location.pageName];
+      };
+    </script>
+</body>
+</html>
+    
+  
+  
+  
+  
+ 
+
+
+
+
+
+
+
+
+  
